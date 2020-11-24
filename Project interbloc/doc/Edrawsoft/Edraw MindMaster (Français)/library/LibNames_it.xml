@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Names>
+    <LibNames Version="7.0">
+        <Library NameU="Animal" Name="Animali"/>
+        <Library NameU="Education" Name="Educazione"/>
+        <Library NameU="Electronic Devices" Name="Dispositivi Elettronici"/>
+        <Library NameU="Environmental Protection" Name="Tutela Ambientale"/>
+        <Library NameU="Expressions" Name="Espressioni"/>
+        <Library NameU="Food" Name="Cibo"/>
+        <Library NameU="Holiday" Name="Vacanze"/>
+        <Library NameU="Insect" Name="Insetto"/>
+        <Library NameU="Medical" Name="Medico"/>
+        <Library NameU="Office" Name="Ufficio"/>
+        <Library NameU="Plant" Name="Pianta"/>
+        <Library NameU="Professions" Name="Professioni"/>
+        <Library NameU="RoadSign" Name="SegnaleStradale"/>
+		<Library NameU="Road Sign" Name="Segnale Stradale"/>
+        <Library NameU="Sea Life" Name="Vita Marina"/>
+        <Library NameU="Sport" Name="Sport"/>
+        <Library NameU="Technology" Name="Tecnologia"/>
+        <Library NameU="Tourism" Name="Turismo"/>
+        <Library NameU="Transportation" Name="Trasporti"/>
+        <Library NameU="Weather" Name="Meteo"/>
+    </LibNames>
+    <Gallaries>
+        <Gallary NameU="Animal" Name="Animali"/>
+        <Gallary NameU="Business" Name="Business"/>
+        <Gallary NameU="Education" Name="Educazione"/>
+        <Gallary NameU="Festival" Name="Festa"/>
+        <Gallary NameU="Food" Name="Cibo"/>
+        <Gallary NameU="General" Name="Generale"/>
+        <Gallary NameU="Nature" Name="Natura"/>
+        <Gallary NameU="People" Name="Persone"/>
+        <Gallary NameU="Social Life" Name="Vita Sociale"/>
+        <Gallary NameU="Sports" Name="Sport"/>
+        <Gallary NameU="Technology" Name="Tecnologia"/>
+        <Gallary NameU="Transportation" Name="Trasporti"/>
+    </Gallaries>
+</Names>

@@ -1,0 +1,37 @@
+﻿<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+  <link rel="stylesheet" type="text/css" href="3rdparty/markdown.css">
+  <script src="3rdparty/marked.min.js"></script>
+  <script src="qwebchannel.js"></script>
+</head>
+<body>
+  <!-- <div id="placeholder"></div> -->
+  <script>
+  'use strict';
+
+  <!-- var placeholder = document.getElementById('placeholder'); -->
+
+  var parseMarkdwon = function(data) {
+      <!-- placeholder.innerHTML = marked(data); -->
+      if (qtsdk && qtsdk.jsCallExportToMap) 
+          qtsdk.jsCallExportToMap(marked(data));
+  }
+
+  new QWebChannel(qt.webChannelTransport,
+    function(channel) {
+      window.qtsdk = channel.objects.qtsdk;
+	  parseMarkdwon(qtsdk.data);
+	  <!-- if (qtsdk.loadMdData) { -->
+		  <!-- console.log("--------data bbbb "); -->
+		  <!-- qtsdk.loadMdData.connect(parseMarkdwon);	
+	  <!-- } -->
+    }
+  );
+  </script>
+</body>
+</html>
+
+
+
